@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity9">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="386dp"
+        android:layout_height="154dp"
+        android:text="Please download the form and fill your information then  give it to college administration."
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="192dp"
+        android:layout_height="59dp"
+        android:text="For download"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926" />
+
+    <Button
+        android:id="@+id/Download"
+        android:layout_width="167dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/black"
+        android:text="CLICK HERE"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.464" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="415dp"
+        android:layout_height="365dp"
+        app:srcCompat="@drawable/form"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="-6dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

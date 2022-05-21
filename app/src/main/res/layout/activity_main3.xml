@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/orbitron"
+        android:gravity="center"
+        android:text="Top 10 courses"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/t1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="1-Linear Algebra."
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.162" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="2-Calculus.                   "
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="3-Probability and Statistics."
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="4-Data Analysis."
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.405"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="5-Data Mining."
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="6-Machine Learning."
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="7-Big data."
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="8-Data Visulization."
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.738"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/t9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="9-Programming."
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.821"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/t10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="10-Artificial Intelligence."
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904"
+        tools:layout_editor_absoluteX="-74dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E3FFFFFF"
+        android:fontFamily="@font/orbitron_medium"
+        android:text="Provided by "
+        android:textColor="#111845"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

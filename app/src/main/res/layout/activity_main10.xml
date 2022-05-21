@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity10">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COVID-19 Vaccination Policy:"
+        android:textAlignment="viewStart"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        app:srcCompat="@drawable/covvid" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To Whom the Policy Applies?"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This policy applies to all employees and students of our University." />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Policy and Procedures:"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="An employee is to receive paid leave for a sufficient period of time, not to exceed four hours, per COVID-19 vaccine injection. Such leave shall be at the employee’s regular rate of pay and shall not be charged against any other leave, including sick leave.  Notice. An employee shall notify their supervisor and/or Human Resources Officer/Business Partner of the need for leave time as soon as practicable.  Non-Discrimination/Non-Retaliation. NYU will not discharge, threaten, penalize or in any other manner discriminate or retaliate against any employee for exercising their rights under this Policy, including but not limited to requesting or obtaining a leave of absence to be vaccinated for COVID-19." />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A student is also to receive an absense execuse for a sufficient period of time, not to exeed 5 hours, per COVID-19 injection." />
+
+    <Button
+        android:id="@+id/b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#0C6EA5"
+        android:text="Provided by"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+
+
+

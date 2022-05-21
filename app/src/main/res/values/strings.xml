@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name"><html><font color="#black" size="40">
+        <center>  University X</center>
+    </font></html></string>
+    <string name="hyperlink">link: <a href="https://www.facebook.com/FCDS.AlexU">Facebook.com</a></string>
+    <string name="hyperlink2">link: <a href="https://www.linkedin.com/school/alexandria-university/">Linkedin.com</a></string>
+    <string name="hyperlink3">link: <a href="http://www.alexu.edu.eg/">Website.com</a></string>
+    <string name="text_view">Data science is one of the most exciting fields out there today. But why is it so important?
+
+Because companies are sitting on a treasure trove of data. As modern technology has enabled the creation and storage of increasing amounts of information, data volumes have exploded. It’s estimated that 90 percent of the data in the world was created in the last two years. For example, Facebook users upload 10 million photos every hour.
+
+But this data is often just sitting in databases and data lakes, mostly untouched.
+
+The wealth of data being collected and stored by these technologies can bring transformative benefits to organizations and societies around the world—but only if we can interpret it. That’s where data science comes in.
+
+Data science reveals trends and produces insights that businesses can use to make better decisions and create more innovative products and services. Perhaps most importantly, it enables machine learning (ML) models to learn from the vast amounts of data being fed to them, rather than mainly relying upon business analysts to see what they can discover from the data.
+
+Data is the bedrock of innovation, but its value comes from the information data scientists can glean from it, and then act upon,Data science combines multiple fields, including statistics, scientific methods, artificial intelligence (AI), and data analysis, to extract value from data. Those who practice data science are called data scientists, and they combine a range of skills to analyze data collected from the web, smartphones, customers, sensors, and other sources to derive actionable insights.
+
+Data science encompasses preparing data for analysis, including cleansing, aggregating, and manipulating the data to perform advanced data analysis. Analytic applications and data scientists can then review the results to uncover patterns and enable business leaders to draw informed insights.
+    but What’s the difference between data science, artificial intelligence, and machine learning?
+To better understand data science—and how you can harness it—it’s equally important to know other terms related to the field, such as artificial intelligence (AI) and machine learning. Often, you’ll find that these terms are used interchangeably, but there are nuances.
+
+Here’s a simple breakdown:
+
+AI means getting a computer to mimic human behavior in some way.
+Data science is a subset of AI, and it refers more to the overlapping areas of statistics, scientific methods, and data analysis—all of which are used to extract meaning and insights from data..
+Machine learning is another subset of AI, and it consists of the techniques that enable computers to figure things out from the data and deliver AI applications.
+And for good measure, we’ll throw in another definition.
+Deep learning which is a subset of machine learning that enables computers to solve more complex problems.</string>
+    <string name="text_on_click">COMPUTER SCIENCE PORTAL</string>
+</resources>
